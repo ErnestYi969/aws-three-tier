@@ -37,8 +37,6 @@ The infrastructure is designed with AWS best practices including:
 
 ## 4. AWS Services Used
 
-## AWS Services Used
-
 ### Networking
 - Amazon VPC
 - Public/Private Subnets
@@ -142,3 +140,7 @@ terraform destroy
 - Store database credentials in AWS Secrets Manager
 - Add Terraform remote backend with S3 and DynamoDB locking
 - Add CI/CD pipeline using GitHub Actions
+
+## Architecture Diagram
+
+![AWS Three Tier Architecture](architecture.png)
