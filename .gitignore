@@ -1,0 +1,13 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform cache
+.terraform/
+
+# Terraform plan
+*.tfplan
+
+# Variable files
+*.tfvars
+*.tfvars.json
