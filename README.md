@@ -64,6 +64,7 @@ The infrastructure is designed with AWS best practices including:
 - Terraform
 
 ## Project Structure
+```bash
 aws-three-tier/
 
 ├── providers.tf
@@ -97,10 +98,11 @@ aws-three-tier/
 ├── rds.tf
 
 └── outputs.tf
+```
 
 ## Deployment
 
-Initialize Terraform:
+### Initialize Terraform:
 
 ```bash
 terraform init
@@ -108,8 +110,7 @@ terraform validate
 terraform plan
 terraform apply
 
----
-
+```
 ## 7. Outputs
 
 After deployment:
@@ -117,20 +118,17 @@ After deployment:
 ```bash
 terraform output
 
-
----
+```
 
 ## 8. Cleanup
 
-```md
+```bash
 
 To remove all AWS resources:
 
-```bash
+
 terraform destroy
-
-
----
+```
 
 ## 9. Future Improvements
 
@@ -144,3 +142,4 @@ terraform destroy
 ## Architecture Diagram
 
 ![AWS Three Tier Architecture](architecture.png)
+
