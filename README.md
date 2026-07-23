@@ -35,7 +35,7 @@ The infrastructure is designed with AWS best practices including:
    Private subnet
 
 
-## 4. AWS Services Used
+## AWS Services Used
 
 ### Networking
 - Amazon VPC
@@ -111,26 +111,24 @@ terraform plan
 terraform apply
 
 ```
-## 7. Outputs
+## Outputs
 
-After deployment:
+- After deployment:
 
 ```bash
 terraform output
 
 ```
 
-## 8. Cleanup
+## Cleanup
+
+- To remove all AWS resources:
 
 ```bash
-
-To remove all AWS resources:
-
-
 terraform destroy
 ```
 
-## 9. Future Improvements
+## Future Improvements
 
 
 - Add HTTPS with ACM certificate
