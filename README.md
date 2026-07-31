@@ -141,3 +141,8 @@ terraform destroy
 
 ![AWS Three Tier Architecture](architecture.png)
 
+## Maintenance
+
+- Upgraded Amazon RDS for MySQL from 8.0 to 8.4
+- Managed lifecycle update through Terraform
+- Verified Terraform state consistency after upgrade

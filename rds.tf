@@ -26,8 +26,10 @@ resource "aws_db_instance" "main" {
 
   engine = "mysql"
 
-  engine_version = "8.0"
+  engine_version = "8.4.9"
 
+  allow_major_version_upgrade = true
+  apply_immediately = true
 
   instance_class = "db.t3.micro"
 
