@@ -149,4 +149,4 @@ terraform destroy
 
 ## Demo
 
-![Demo](demo.png)
+![Demo](demo.jpg)
