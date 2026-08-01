@@ -146,3 +146,7 @@ terraform destroy
 - Upgraded Amazon RDS for MySQL from 8.0.46 to 8.4.9 using Terraform.
 - Enabled major version upgrade support and applied the change immediately.
 - Verified that Terraform state matches AWS resources after upgrade.
+
+## Demo
+
+![Demo](demo.png)
