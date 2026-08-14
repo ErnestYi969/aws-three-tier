@@ -192,6 +192,10 @@ terraform destroy
 
 ![AWS Three Tier Architecture](architecture.png)
 
+## Demo 演示
+
+![Demo 演示](demo.jpg)
+
 ## Maintenance 维护
 
 - Upgraded Amazon RDS for MySQL from 8.0.46 to 8.4.9 using Terraform.
