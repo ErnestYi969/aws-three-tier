@@ -206,3 +206,9 @@ terraform destroy
 
 - Verified that Terraform state matches AWS resources after upgrade.
 - 升级后，验证了 Terraform 状态与 AWS 资源是否一致。
+
+## Project Status / 项目状态
+
+- This project has been completed and archived. The AWS infrastructure has been destroyed to avoid ongoing cloud costs. The source code, architecture diagram, screenshots, and deployment documentation are preserved for portfolio purposes.
+
+- 本项目已完成并归档。为避免持续产生云资源费用，AWS 基础设施已销毁。源代码、架构图、截图及部署文档保留用于作品集展示。
